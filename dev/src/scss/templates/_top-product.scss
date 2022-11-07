@@ -1,0 +1,268 @@
+.top-product{
+    position: relative;
+    margin-top: 80px;
+}
+.top-p-bg img{
+    max-width: 1050px;
+    position: relative;
+}
+.product-item{
+    position: absolute;
+    top: 60px;
+    left: 15%;
+    width: 600px;
+    height: 260px;
+}
+.product-item .tittle{
+    width: 595px;
+}
+.product-text-block{
+    padding-left: 13px;
+    width: 301px;
+    height: 22px;
+    color: #16202a;
+    font-family: "Proxima Nova - Semibold";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.product-text-block span{
+    display: block;
+    padding-top: 20px;
+}
+.product-text-block .none{
+    padding-top: 0;
+}
+.product-price{
+    width: 170px;
+    height: 31px;
+    color: #c5834b;
+    font-family: "Newton TT";
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 13px;
+}
+.product-item .btn{
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+.product-item .btn .btn-item{
+    padding-bottom: 9px;
+}
+// KNOW TO COAST
+.know-item{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.to-know-coast .tittle{
+    width: 600px;
+    margin: 0;
+}
+.know-left .about-top{
+    width: 450px;
+    height: 160px;
+    position: relative;
+    left: 10px;
+}
+.about-description{
+    width: 476px;
+    height: 108px;
+    color: #16202a;
+    font-family: "Newton TT";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.know-right{
+    width: 458px;
+    height: 505px;
+    border: 10px solid #fef1e5;
+}
+.know-input span{
+    display: block;
+    width: 20px;
+    height: 16px;
+    color: #16202a;
+    // font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.know-input input{
+    margin-left: 40px;
+    width: 260px;
+    height: 3px;
+    background-color: #16202a;
+    opacity: 0.3;
+}
+.know-input .square-ceilings{
+    padding: 40px
+}
+.input-square{
+    display: inline-block;
+    position: relative;
+    bottom: 8px;
+}
+.input-square span{
+    text-align: center;
+    width: 55px;
+    height: 30px;
+    border: 1px solid black;
+    padding-top: 5px;
+}
+.input-meter{
+    display: inline-block;
+    width: 30px;
+}
+.coating-text{
+    width: 76px;
+    height: 17px;
+    margin: 20px 0 10px 15px;
+    color: #16202a;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.coating-list{
+    text-align: center;
+}
+.coating-list li{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 4px 18px;
+    height: 25px;
+    background-color: #e7e8e9;
+    color: #16202a;
+    // font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+.coating-list li:hover{
+    background-color: #c5834b;
+}
+.approx-text{
+    display: inline-block;
+    margin-left: 40px;
+    width: 166px;
+    height: 17px;
+    color: #16202a;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.approx-coast{
+    margin-top: 55px;
+}
+.approx-input{
+    display: inline-block;
+    margin-left: 70px;
+}
+.approx-input input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 104px;
+    line-height: 30px;
+    color: black;
+    font-family: "Proxima Nova";
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+}
+.approx-input ::placeholder{
+    width: 104px;
+    line-height: 30px;
+    color: black;
+    font-family: "Proxima Nova";
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+}
+.user-number input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 350px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: #848484;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.user-number ::placeholder{
+    color: #848484;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.know-right .btn{
+    margin-top: 15px;
+}
+

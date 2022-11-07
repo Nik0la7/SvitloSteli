@@ -1,0 +1,34 @@
+.quality-work{
+    margin-top: 110px;
+    position: relative;
+
+}
+.quality-work .tittle{
+    width: 950px;
+}
+.quality-item{
+    display: flex;
+    justify-content: space-between;
+}
+.quality-description .about-text p{
+    height: 100%;
+    padding-bottom: 50px;
+    color: black;
+}
+.quality-img img{
+    position: relative;
+    top: 40px;
+    right: 230px;
+    border: 15px solid #f1d5bb;
+}
+.quality-right-img img{
+    position: absolute;
+    top: 160px;
+    right: 0;
+    z-index: -1;
+}
+.quality-left-img img{
+    position: absolute;
+    top: 25px;
+    left: -35px;
+}

@@ -1,0 +1,58 @@
+.free-measure{
+    position: relative;
+    margin-top: 75px;
+    height: 375px;
+}
+.measure-item{
+    height: 300px;
+    width: 850px;
+    background-color: #fef1e5;
+}
+.top-measure{
+    height: 180px;
+    border-bottom: 8px solid white;
+}
+.measure-items{
+    position: absolute;
+    width: 850px;
+    top: 0;
+}
+.measure-bg img{
+    max-height: 173px;
+    min-width: 850px;
+}
+.top-measure .tittle{
+    width: 655px;
+    font-size: 26px;
+    padding-top: 35px;
+}
+.measure-text{
+    width: 626px;
+    height: 69px;
+    color: #16202a;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 auto;
+}
+.bottom-measure{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.bottom-measure .user-number input{
+    background-color: transparent;
+}
+.measure-right-bg img{
+    position: absolute;
+    top: -65px;
+    right: 0;
+    z-index: -1;
+}

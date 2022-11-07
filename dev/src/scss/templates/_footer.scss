@@ -1,0 +1,124 @@
+// @import 'reset';
+// @import 'media';
+// @import 'global';
+// @import 'icons';
+
+// @import 'includes/plugins';
+//
+.footer{
+    width: 100%;
+    height: 278px;
+    background-color: #16202a;
+    position: relative;
+}
+.left-f-item,
+.center-f-item,
+.right-f-item{
+    display: inline-block;
+    width: 100%;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff;
+}
+.left-f-item .logo{
+    margin: 30px 0;
+}
+.facebook,
+.inst,
+.youtube{
+    display: inline-block;
+    padding: 10px;
+}
+.mailing-list{
+    margin: 20px 0 10px;
+}
+.mailing-list span{
+    width: 208px;
+    height: 17px;
+    color: #c6a283;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-decoration: underline;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.center-f-item{
+    margin-top: 30px;
+    text-align: center;
+    color: #848484;
+    font-size: 18px;
+    line-height: 40px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+
+}
+.center-f-item li:hover{
+    color: #ffffff;
+}
+.right-f-item{
+    text-align: center;
+}
+.right-f-item span{
+    width: 218px;
+    height: 41px;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.right-f-item img{
+    margin-right: 5px;
+}
+.right-f-item li{
+    text-align: left;
+    max-width: 245px;
+    margin: 0 auto 30px;
+}
+.f-img{
+    display: inline-block;
+    position: relative;
+    top: 35px;
+}
+.f-span{
+    padding-left: 30px;
+}
+.callback span{
+    color: #c6a283;
+    border-bottom: 1px solid #c6a283;
+}
+.footer-description{
+    margin: 0 auto;
+    width: 291px;
+    height: 13px;
+    color: #a1a1a1;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.top-button{
+    position: absolute;
+    top: 20%;
+    left: 85%;
+}

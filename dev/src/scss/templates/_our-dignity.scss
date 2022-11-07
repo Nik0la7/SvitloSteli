@@ -1,0 +1,47 @@
+.our-dignity{
+    margin-top: 90px;
+}
+.our-dignity .container{
+    min-width: 1190px;
+}
+.dignity-list-item{
+    margin-top: 60px;
+}
+.dignity-item{
+    text-align: center;
+}
+.dignity-item li{
+    display: inline-block;
+    width: 234px;
+    height: 445px;
+    background-color: #f7f7f7;
+    vertical-align: top;
+    position: relative;
+    margin-left: -5px;
+    top: 0;
+    transition: all 0.7s ease;
+}
+.dignity-item li:hover{
+    top: 60px;
+    background-color: #fef1e5;
+    transition: all 0.7s ease;
+}
+.dignity-list-img{
+    text-align: center;
+}
+.dignity-list-text{
+    margin: 20px auto 0;
+    width: 155px;
+    height: 70px;
+    color: #16202a;
+    // font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}

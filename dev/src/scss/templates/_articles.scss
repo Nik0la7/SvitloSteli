@@ -1,0 +1,105 @@
+
+.articles-cards{
+    text-align: center;
+}
+.art-card{
+    max-width: 500px;
+    height: 526px;
+    background-color: #f7f7f7;
+    display: inline-block;
+    margin: 0 5px;
+}
+.articles-card-img img{
+    max-width: -webkit-fill-available;
+}
+.articles-card-tittle{
+    margin: 25px 30px 105px;
+    width: 438px;
+    height: 23px;
+    color: #16202a;
+    // font-family: "Newton TT";
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.date{
+    width: 88px;
+    height: 14px;
+    color: #16202a;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: right;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.card-bottom-tittle{
+    display: flex;
+    justify-content: space-between;
+}
+.card-bottom-tittle .btn{
+    position: relative;
+    left: 45px;
+}
+.read-more{
+    margin: 95px auto 10px;
+    width: 897px;
+    height: 230px;
+    background-image: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.read-more p{ 
+    margin: 0 auto;
+    width: 745px;
+    height: 230px;
+    color: #16202a;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: left;
+    font-family: "Proxima Nova - Light";
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    font-family: "Proxima Nova - Semibold";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.read-more-btn{
+    text-align: center;
+    cursor: pointer;
+}
+.read-more-btn span{
+    width: 108px;
+    height: 19px;
+    color: #16202a;
+    font-family: "Proxima Nova - Semibold";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: underline;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}

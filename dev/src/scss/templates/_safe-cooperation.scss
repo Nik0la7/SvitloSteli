@@ -1,0 +1,80 @@
+.safe-cooperation{
+    margin-top: 100px;
+}
+.safe-item{
+    width: 1065px;
+    height: 378px;
+    background-color: #f7f7f7;
+    position: relative;
+    top: 35px;
+}
+.safe-item li{
+    display: inline-block;
+}
+.safe-item li img{
+    position: relative;
+    bottom: 80px;
+    right: 100px;
+}
+
+.item-list li{
+    display: block;
+}
+.list-wrapper{
+    width: 235px;
+    height: 280px;
+    position: absolute;
+    top: 20%;
+}
+.list-wrapper1{
+    width: 235px;
+    height: 280px;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+
+.list-tittle{
+    /* Style for "Працюємо о" */
+    margin-bottom: 20px;
+    width: 302px;
+    height: 24px;
+    color: #16202a;
+    font-family: "Newton TT";
+    font-size: 27px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    /* Text style for "Працюємо о" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.item-list li{
+    /* Style for "Укладаємо" */
+    margin: 0 auto;
+    width: 230px;
+    height: 28px;
+    color: #16202a;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    /* Text style for "Укладаємо" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.point-list{
+    width: 9px;
+    height: 9px;
+    background-color: #c5834b;
+    display: inline-block;
+    margin: 0 10px 2px;
+    border-radius: 5px;
+}

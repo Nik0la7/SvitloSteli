@@ -1,0 +1,165 @@
+// .ceilings{
+//     margin-top: 75px;
+// }
+
+.ceilings .container{
+   max-width: 1100px;
+}
+.tittles{
+    display: flex;
+    justify-content: space-between;
+}
+.tittles .tittle{
+    margin: 75px 0 20px;
+}
+.tittles .buttons{
+    margin-top: 75px;
+}
+.tittles .right-btn,
+.tittles .left-btn{
+    display: inline-block;
+}
+.ceiling-card{
+    display: inline-block;
+    margin-top: 30px;
+    height: 600px;
+    width: 360px;
+    background-color: #f7f7f7;
+}
+.ceil-card-tittle{
+    width: 252px;
+    height: 21px;
+    color: #16202a;
+    // font-family: "Newton TT";
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.card-container{
+    width: 300px;
+    height: 100%;
+    margin: 0 auto;
+}
+.ceil-card-tittle{
+    margin-top: 25px;
+}
+.ceil-card-description{
+    display: flex;
+    justify-content: space-between;
+}
+.ceil-card-description{
+    margin-top: 15px;
+}
+.coasts{
+    width: 150px;
+    height: 22px;
+    color: #16202a;
+    font-family: "Newton TT";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.from{
+    color: #16202a;
+    font-family: "Proxima Nova - Regular";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+
+}
+.coast-hrn{
+    font-family: "Newton TT";
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #c5834b;
+
+
+}
+.hrn{
+    font-family: "Proxima Nova - Regular";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #c5834b;
+}
+.can-to-buy{
+    padding-top: 7px;
+    width: 150px;
+    height: 12px;
+    color: #16202a;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: right;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.can-to-buy img{
+    position: relative;
+    bottom: 4px;
+    right: 5px;
+}
+.card-container .btn-item span {
+    padding-left: 10%;
+}
+.card-container .btn{
+    position: relative;
+    top: 25px;
+}
+.not-available{
+    width: 134px;
+    height: 12px;
+    color: #848484;
+    // font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: right;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.see-more{
+    cursor: pointer;
+    text-align: right;
+    padding-top: 40px;
+}
+.ceiling-more,
+.ceiling-arrow-img{
+    display: inline-block;
+}
+.ceiling-more{
+    width: 160px;
+    height: 25px;
+    color: #16202a;
+    // font-family: "Proxima Nova - Semibold";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: right;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,152 @@
+.offer-block{
+    margin-top: 275px;
+}
+.tittle{
+    margin: 0 auto 50px;
+}
+.more-offers{
+    text-align: center;
+}
+.offer-card{
+    display: inline-block;
+    position: relative;
+}
+.offer-card img{
+    max-width: 390px;
+    max-height: 440px;
+}
+.offer-background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-image: linear-gradient(to top, rgba(22, 32, 42, 0.9) 0%, rgba(22, 32, 42, 0) 100%);
+}
+.background-item{
+    position: relative;
+    top: 50%;
+}
+.background-item .btn{
+    margin: 0 auto;
+}
+.card-tittle{
+    margin: 0 auto;
+    width: 360px;
+    height: 19px;
+    color: #ffffff;
+    // font-family: "Newton TT";
+    font-size: 25px; //27px
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.card-description{
+    margin: 20px auto 30px;
+    width: 325px;
+    height: 73px;
+    color: #ffffff;
+    // font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+// CONSULTATION
+.consultation{
+    margin: 90px auto;
+    width: 852px;
+    height: 230px;
+    // opacity: 0.35;
+    background-color: #fef1e5;
+    position: relative;
+    text-align: center;
+}
+.consultation .btn{
+    margin: 0 auto;
+}
+.consultation .back-btn{
+    padding-top: 5px;
+}
+.consultation .bg-btn-text {
+    height: 28px;
+}
+.cons-item{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.cons-tittle{
+    display: block;
+    position: relative;
+    margin: 65px auto 110px;
+    color: #16202a;
+    // font-family: "Proxima Nova - Semibold";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+.cons-item{
+    display: block;
+    // font-family: "Proxima Nova - Semibold";
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    font-size: 16px;
+}
+.cons-text{
+    width: 530px;
+    margin: 105px auto 0;
+}
+.cons-bg img{
+    min-width: 100%;
+    max-height: 460px;
+}
+.about-cons{
+    position: relative;
+}
+.about-cons-block{
+    position: absolute;
+    top: 0;
+    width: 760px;
+    height: 460px;
+    background-color: #ffffff;
+}
+.about-cons-block li{
+    padding-top: 50px;
+}
+.list-icon{
+    display: inline-block;
+    padding-right: 50px;
+}
+.list-text{
+    display: inline-block;
+    width: 461px;
+    height: 100px;
+    color: #16202a;
+    // font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+

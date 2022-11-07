@@ -1,0 +1,124 @@
+.sub-footer{
+    position: relative;
+    margin-top: 90px;
+}
+.sub-line-item{
+display: flex;
+justify-content: space-between;
+}
+.sub-left-img,
+.sub-right-item,
+.sub-left-block,
+.sub-right-block{
+    max-width: 50%;
+    min-width: 50%;
+}
+.sub-left-img img,
+.sub-right-img img{
+    max-width: 100%;
+    min-width: 100%;
+}
+.sub-left-img img{
+    min-height: -webkit-fill-available;
+}
+.item-bg{
+    background-color: #fef1e5;
+}
+.sub-right-text{
+    position: absolute;
+    max-width: 30%;
+    max-height: 70%;
+    margin-left: 5%;
+    top: 10%;
+}
+.sub-right-text .btn{
+    margin-left: 0;
+}
+.sub-tittle{
+    margin-bottom: 15px;
+    width: 100%;
+    height: 15%;
+    color: #16202a;
+    font-family: "Newton TT";
+    font-size: 23px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.sub-description{
+    width: 100%;
+    height: 38px;
+    color: #16202a;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.sub-inputs{
+    margin-bottom: 20px;
+}
+.sub-inputs input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    margin-top: 25px;
+    width: 70%;
+}
+.sub-inputs span{
+    display: block;
+    margin-top: 40px;
+}
+.sub-left-block{
+    background-color: #f7f7f7;
+}
+.sub-left-block .sub-tittle{
+    text-align: center;
+    position: relative;
+    top: 40px;
+
+}
+.town-list{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+}
+.town-list li{
+    display: block;
+    width: 213px;
+    height: 35px;
+    color: #16202a;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+    margin: 0 auto;
+}
+.town-list li:hover{
+    color: #c5834b;
+}
+.left-town,
+.right-town{
+    width: 50%;
+}
+.sub-button{
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+}

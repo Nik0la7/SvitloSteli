@@ -1,0 +1,143 @@
+// @import 'reset';
+// @import 'media';
+// @import 'global';
+// @import 'icons';
+
+// @import 'includes/plugins';
+
+// .logo img{
+// 	width: 568px;
+// 	height: 51px;
+//     background-color: black;
+// }
+// a{
+//     background-color: red;
+// }
+
+// ALL SETTINGS--------------
+.container{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.btn{
+    width: 269px;
+    cursor: pointer;
+    height: 60px;
+    width: 269px;
+    height: 51px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    // padding-top: 10px;
+}
+.btn-inside{
+    width: 269px;
+    height: 51px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+// .btn button{
+//     width: 269px;
+//     height: 51px;
+//     background-color: #ffffff;
+//     margin: 0 auto;
+//     position: relative;
+//     z-index: 1;
+//     // background-color: transparent;
+//     padding-top: 10px;
+// }
+.back-btn{
+    width: 253px;
+    height: 49px;
+    background-color: #f1d5bb;
+    position: relative;
+    bottom: 40px;
+    margin: 0 auto;
+    z-index: 1;
+    padding-top: 16px;
+    text-align: center;
+}
+.btn-item{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 6px;
+}
+.btn-item span{
+    padding-left: 25%;
+}
+.btn-item img{
+    padding-right: 25%;
+}
+.bg-btn-text{
+    border-bottom: 1px solid black;
+    height: 22px;
+}
+.tittle{
+    width: 450px;
+    height: 31px;
+    color: #16202a;
+    // font-family: "Newton TT";
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+
+//// HEADER
+.header{
+    position: relative;
+    top: 15px;
+    z-index: 1;
+}
+.logo,
+.header-list,
+.inline{
+    display: inline-block;
+}
+.logo img{
+    width: 68px;
+    height: 51px;
+}
+.header-list{
+    position: relative;
+    bottom: 15px;
+    border-bottom: 1px solid #fef1e5;
+    padding-bottom: 15px;
+}
+.header-list a {
+    display: inline-block;
+}
+.header-list li{
+    padding: 0 10px;
+    width: 100%;
+    height: 12px;
+    color: #ad8e73;
+    // font-family: "Proxima Nova - Semibold";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "Головна" */
+    font-style: normal;
+    letter-spacing: normal;
+}
+.serviceBtn{
+    position: relative;
+    bottom: 5px;
+}

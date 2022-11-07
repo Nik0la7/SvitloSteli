@@ -1,0 +1,126 @@
+.main-block{
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+.background-img img{
+    max-width: 100%;
+    height: 660px;
+}
+.main-item{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 220px;
+}
+// LEFT BLOCK
+.main-tittle{
+    width: 425px;
+    height: 165px;
+    color: #ffd0a7;
+    font-family: "Newton TT";
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 65px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.tittle-description{
+    padding-top: 20px;
+    width: 403px;
+    height: 76px;
+    color: #ffffff;
+    font-family: "Newton TT";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 45px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+//RIGHT BLOCK
+.right-block{
+    width: 419px;
+    height: 410px;
+    // opacity: 0.35;
+    // position: relative;
+    // bottom: 100px;
+    background-color: #fef1e5;
+    margin-left: 150px;
+}
+
+.top-text{
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 245px;
+    height: 18px;
+    color: #16202a;
+    // font-family: "Newton TT";
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+
+}
+.top-text-description{
+    margin: 40px auto 0;
+    width: 340px;
+    height: 41px;
+    color: #16202a;
+    // font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    // border-bottom: 10px solid white;
+}
+.border-card{
+    margin-top: 20px;
+    width: 100%;
+    height: 10px;
+    background-color: #ffffff;
+}
+.card-bg-img img{
+    max-height: 270px;
+    min-width: 415px;
+}
+.form{
+    position: absolute;
+    top: 170px;
+    left: 65%;
+
+    
+
+}
+.inputs input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    display: block;
+    width: 300px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+
+    // margin: 0 auto;
+    // outline: none;
+}
